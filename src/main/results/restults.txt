@@ -1,0 +1,151 @@
+Benchmark                                                Mode  Samples  Score         Score error   Units
+
+1 thread
+jre8x64
+t.t.b.ControlGroupBenchmark.randomlyReadWrite           thrpt       10  18985,686      287,152  ops/ms
+t.t.b.ControlGroupBenchmark.readOnly                    thrpt       10  19450,355      193,203  ops/ms
+t.t.b.ControlGroupBenchmark.systematicallyReadWrite     thrpt       10  19733,029      133,108  ops/ms
+
+t.t.b.InnerStateBenchmark.randomlyReadWrite             thrpt       10  18592,331      469,257  ops/ms
+t.t.b.InnerStateBenchmark.readOnly                      thrpt       10  18886,643      899,767  ops/ms
+t.t.b.InnerStateBenchmark.systematicallyReadWrite       thrpt       10  15426,720      279,503  ops/ms
+
+t.t.b.IntrinsicLockBenchmark.randomlyReadWrite          thrpt       10  13597,820      224,585  ops/ms
+t.t.b.IntrinsicLockBenchmark.readOnly                   thrpt       10  13817,870      295,715  ops/ms
+t.t.b.IntrinsicLockBenchmark.systematicallyReadWrite    thrpt       10   7385,740      163,056  ops/ms
+
+t.t.b.LockBenchmark.randomlyReadWrite                   thrpt       10  13786,107      121,327  ops/ms
+t.t.b.LockBenchmark.readOnly                            thrpt       10  14019,681      196,121  ops/ms
+t.t.b.LockBenchmark.systematicallyReadWrite             thrpt       10   7562,431      115,514  ops/ms
+
+t.t.b.RWLockBenchmark.randomlyReadWrite                 thrpt       10  13270,474      230,389  ops/ms
+t.t.b.RWLockBenchmark.readOnly                          thrpt       10  13475,050      135,692  ops/ms
+t.t.b.RWLockBenchmark.systematicallyReadWrite           thrpt       10   7089,324      227,846  ops/ms
+
+jre7x32
+t.t.b.ControlGroupBenchmark.randomlyReadWrite           thrpt       10  13315,641      154,477  ops/ms
+t.t.b.ControlGroupBenchmark.readOnly                    thrpt       10  14968,197      382,337  ops/ms
+t.t.b.ControlGroupBenchmark.systematicallyReadWrite     thrpt       10  15419,475      396,865  ops/ms
+
+t.t.b.InnerStateBenchmark.randomlyReadWrite             thrpt       10  13263,399      322,371  ops/ms
+t.t.b.InnerStateBenchmark.readOnly                      thrpt       10  14209,708      318,300  ops/ms
+t.t.b.InnerStateBenchmark.systematicallyReadWrite       thrpt       10  11618,672      187,943  ops/ms
+
+t.t.b.IntrinsicLockBenchmark.randomlyReadWrite          thrpt       10  10566,088      391,327  ops/ms
+t.t.b.IntrinsicLockBenchmark.readOnly                   thrpt       10  11526,700      318,544  ops/ms
+t.t.b.IntrinsicLockBenchmark.systematicallyReadWrite    thrpt       10   6775,768      153,242  ops/ms
+
+t.t.b.LockBenchmark.randomlyReadWrite                   thrpt       10  10962,256      137,416  ops/ms
+t.t.b.LockBenchmark.readOnly                            thrpt       10  11408,699      151,768  ops/ms
+t.t.b.LockBenchmark.systematicallyReadWrite             thrpt       10   6812,860      162,371  ops/ms
+
+t.t.b.RWLockBenchmark.randomlyReadWrite                 thrpt       10  10275,152      193,202  ops/ms
+t.t.b.RWLockBenchmark.readOnly                          thrpt       10  11117,893      137,582  ops/ms
+t.t.b.RWLockBenchmark.systematicallyReadWrite           thrpt       10   6400,755      137,855  ops/ms
+
+4threads
+jre8x64
+t.t.b.ControlGroupBenchmark.randomlyReadWrite           thrpt       10  68665,181     2312,554  ops/ms
+t.t.b.ControlGroupBenchmark.readOnly                    thrpt       10  76389,493     3186,234  ops/ms
+t.t.b.ControlGroupBenchmark.systematicallyReadWrite     thrpt       10  11513,103      126,385  ops/ms
+
+t.t.b.InnerStateBenchmark.randomlyReadWrite             thrpt       10  68591,874     2147,904  ops/ms
+t.t.b.InnerStateBenchmark.readOnly                      thrpt       10  76466,069      796,951  ops/ms
+t.t.b.InnerStateBenchmark.systematicallyReadWrite       thrpt       10   7338,715      195,265  ops/ms
+
+t.t.b.IntrinsicLockBenchmark.randomlyReadWrite          thrpt       10   4640,215      681,505  ops/ms
+t.t.b.IntrinsicLockBenchmark.readOnly                   thrpt       10   5102,048      704,659  ops/ms
+t.t.b.IntrinsicLockBenchmark.systematicallyReadWrite    thrpt       10   2122,213       26,365  ops/ms
+
+t.t.b.LockBenchmark.randomlyReadWrite                   thrpt       10   5909,517     1083,031  ops/ms
+t.t.b.LockBenchmark.readOnly                            thrpt       10   6325,452     1118,479  ops/ms
+t.t.b.LockBenchmark.systematicallyReadWrite             thrpt       10   3496,364      242,228  ops/ms
+
+t.t.b.RWLockBenchmark.randomlyReadWrite                 thrpt       10   2770,773       25,873  ops/ms
+t.t.b.RWLockBenchmark.readOnly                          thrpt       10   2112,752       71,411  ops/ms
+t.t.b.RWLockBenchmark.systematicallyReadWrite           thrpt       10    539,914      102,422  ops/ms
+
+jre7x32
+t.t.b.ControlGroupBenchmark.randomlyReadWrite           thrpt       10  47654,391     1198,729  ops/ms
+t.t.b.ControlGroupBenchmark.readOnly                    thrpt       10  59846,683     1129,212  ops/ms
+t.t.b.ControlGroupBenchmark.systematicallyReadWrite     thrpt       10  11969,920      160,190  ops/ms
+
+t.t.b.InnerStateBenchmark.randomlyReadWrite             thrpt       10  49033,074     1125,597  ops/ms
+t.t.b.InnerStateBenchmark.readOnly                      thrpt       10  56187,784      911,652  ops/ms
+t.t.b.InnerStateBenchmark.systematicallyReadWrite       thrpt       10   7352,873      136,016  ops/ms
+
+t.t.b.IntrinsicLockBenchmark.randomlyReadWrite          thrpt       10   3144,280       44,951  ops/ms
+t.t.b.IntrinsicLockBenchmark.readOnly                   thrpt       10   2887,522       57,622  ops/ms
+t.t.b.IntrinsicLockBenchmark.systematicallyReadWrite    thrpt       10   1237,223       11,665  ops/ms
+
+t.t.b.LockBenchmark.randomlyReadWrite                   thrpt       10   5438,754      566,878  ops/ms
+t.t.b.LockBenchmark.readOnly                            thrpt       10   4972,606     1238,724  ops/ms
+t.t.b.LockBenchmark.systematicallyReadWrite             thrpt       10   2922,325      626,263  ops/ms
+
+t.t.b.RWLockBenchmark.randomlyReadWrite                 thrpt       10   2508,490      230,329  ops/ms
+t.t.b.RWLockBenchmark.readOnly                          thrpt       10   2359,176      186,945  ops/ms
+t.t.b.RWLockBenchmark.systematicallyReadWrite           thrpt       10    565,154      135,008  ops/ms
+
+jre6x64
+t.t.b.ControlGroupBenchmark.randomlyReadWrite           thrpt       10  67524,285     2052,538  ops/ms
+t.t.b.ControlGroupBenchmark.readOnly                    thrpt       10  75959,309     1387,123  ops/ms
+t.t.b.ControlGroupBenchmark.systematicallyReadWrite     thrpt       10  11513,466      128,324  ops/ms
+
+t.t.b.InnerStateBenchmark.randomlyReadWrite             thrpt       10  65963,090     1696,394  ops/ms
+t.t.b.InnerStateBenchmark.readOnly                      thrpt       10  75183,453     1226,394  ops/ms
+t.t.b.InnerStateBenchmark.systematicallyReadWrite       thrpt       10   8663,344      154,877  ops/ms
+
+t.t.b.IntrinsicLockBenchmark.randomlyReadWrite          thrpt       10   3926,721       83,029  ops/ms
+t.t.b.IntrinsicLockBenchmark.readOnly                   thrpt       10   4247,053       96,543  ops/ms
+t.t.b.IntrinsicLockBenchmark.systematicallyReadWrite    thrpt       10   2028,025       24,129  ops/ms
+
+t.t.b.LockBenchmark.randomlyReadWrite                   thrpt       10   6202,989     1390,082  ops/ms
+t.t.b.LockBenchmark.readOnly                            thrpt       10   5961,845     1467,767  ops/ms
+t.t.b.LockBenchmark.systematicallyReadWrite             thrpt       10   3089,722      758,562  ops/ms
+
+t.t.b.RWLockBenchmark.randomlyReadWrite                 thrpt       10   3050,653       57,237  ops/ms
+t.t.b.RWLockBenchmark.readOnly                          thrpt       10   1987,194       26,700  ops/ms
+t.t.b.RWLockBenchmark.systematicallyReadWrite           thrpt       10    586,490      126,430  ops/ms
+
+15threads
+jre8x64
+t.t.b.ControlGroupBenchmark.randomlyReadWrite           thrpt       10  69001,756     1123,055  ops/ms
+t.t.b.ControlGroupBenchmark.readOnly                    thrpt       10  79182,196     1303,770  ops/ms
+t.t.b.ControlGroupBenchmark.systematicallyReadWrite     thrpt       10  11679,443      125,966  ops/ms
+
+t.t.b.InnerStateBenchmark.randomlyReadWrite             thrpt       10  70834,545     1354,417  ops/ms
+t.t.b.InnerStateBenchmark.readOnly                      thrpt       10  78048,708     1059,775  ops/ms
+t.t.b.InnerStateBenchmark.systematicallyReadWrite       thrpt       10   7288,788      326,283  ops/ms
+
+t.t.b.IntrinsicLockBenchmark.randomlyReadWrite          thrpt       10   4251,283       53,921  ops/ms
+t.t.b.IntrinsicLockBenchmark.readOnly                   thrpt       10   4184,014       70,995  ops/ms
+t.t.b.IntrinsicLockBenchmark.systematicallyReadWrite    thrpt       10   1832,492       39,247  ops/ms
+
+t.t.b.LockBenchmark.randomlyReadWrite                   thrpt       10   7170,185      168,311  ops/ms
+t.t.b.LockBenchmark.readOnly                            thrpt       10   7399,673       78,854  ops/ms
+t.t.b.LockBenchmark.systematicallyReadWrite             thrpt       10   3846,884       31,297  ops/ms
+
+t.t.b.RWLockBenchmark.randomlyReadWrite                 thrpt       10   2792,649       72,135  ops/ms
+t.t.b.RWLockBenchmark.readOnly                          thrpt       10   1971,976       40,037  ops/ms
+t.t.b.RWLockBenchmark.systematicallyReadWrite           thrpt       10    608,471       84,751  ops/ms
+
+jre7x32
+t.t.b.ControlGroupBenchmark.randomlyReadWrite           thrpt       10  50245,985     1080,626  ops/ms
+t.t.b.ControlGroupBenchmark.readOnly                    thrpt       10  60926,382     1142,761  ops/ms
+t.t.b.ControlGroupBenchmark.systematicallyReadWrite     thrpt       10  11770,007      108,224  ops/ms
+
+t.t.b.InnerStateBenchmark.randomlyReadWrite             thrpt       10  49425,809     2417,390  ops/ms
+t.t.b.InnerStateBenchmark.readOnly                      thrpt       10  58129,766     1028,183  ops/ms
+t.t.b.InnerStateBenchmark.systematicallyReadWrite       thrpt       10   7478,704      233,872  ops/ms
+
+t.t.b.IntrinsicLockBenchmark.randomlyReadWrite          thrpt       10   2592,334       31,907  ops/ms
+t.t.b.IntrinsicLockBenchmark.readOnly                   thrpt       10   2700,124       25,513  ops/ms
+t.t.b.IntrinsicLockBenchmark.systematicallyReadWrite    thrpt       10   1301,195       20,103  ops/ms
+
+t.t.b.LockBenchmark.randomlyReadWrite                   thrpt       10   5720,061      171,209  ops/ms
+t.t.b.LockBenchmark.readOnly                            thrpt       10   6358,169      104,823  ops/ms
+t.t.b.LockBenchmark.systematicallyReadWrite             thrpt       10   3593,535      125,969  ops/ms
+
+t.t.b.RWLockBenchmark.randomlyReadWrite                 thrpt       10   2403,057       25,225  ops/ms
+t.t.b.RWLockBenchmark.readOnly                          thrpt       10   2244,074      111,551  ops/ms
+t.t.b.RWLockBenchmark.systematicallyReadWrite           thrpt       10    603,908       22,599  ops/ms
